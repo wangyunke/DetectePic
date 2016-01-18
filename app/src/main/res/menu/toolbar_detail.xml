@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_take"
+        android:orderInCategory="110"
+        android:title="拍照"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_pick"
+        android:orderInCategory="120"
+        android:title="相册"
+        app:showAsAction="ifRoom"/>
+
+</menu>
